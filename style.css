@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body{
+    text-align: center;
+    background-color:mediumpurple ;
+    font-family: 'Pacifico', cursive;
+}
+
+.container{
+    margin-left: 600px;
+    margin-top: 100px;
+    position: relative;
+    width: 350px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 14px 14px 20px hotpink, 14px 14px 20px hotpink;
+    background-color: mintcream;
+}
+.inputs{
+    text-align: center;
+     margin: 0px;
+} 
+
+label,input,button{
+    width: 100%;
+    border: none;
+    outline:none;
+    font-size: 20px;
+}
+
+input::placeholder{
+    color: darkmagenta;
+}
+
+input{
+    width: 330px;
+    background: papayawhip;
+    height: 50px;
+    font-size: 14px;
+    border-radius: 50px;
+    box-shadow: inset 6px 6px 6px purple, inset -6px -6px 6px violet;
+}
+
+button{
+    margin-top: 50px;
+    width: 330px;
+    background:lightgoldenrodyellow;
+    height: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 900;
+    box-shadow:thistle 6px 6px 6px , -6px -6px 6px blueviolet;
+}
+
